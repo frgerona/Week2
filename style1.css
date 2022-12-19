@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body, html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    padding: 2em;
+}
+
+.top-navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top-navigation-left {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.top-navigation-links {
+    display: flex;
+    gap: 2em;
+}
+
+.top-navigation-links a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    gap: 1em;
+}
+
+.top-navigation-right {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+}
+
+.top-navigation-right img {
+    width: 25px;
+    cursor: pointer;
+}
+
+.info {
+    text-align: center;
+    margin-top: 3em;
+}
+
+.landingpage-body {
+    display: flex;
+    margin-left: 4em;
+    margin-top: 2em;
+}
+
+.landingpage-body-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+.landingpage-body-left img {
+    width: 100%;
+    cursor: pointer;
+}
+
+.landingpage-body-left h1 {
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.landingpage-body-left p {
+    text-align: center;
+}
+
+.landingpage-body-left button {
+    border-color: black;
+    background-color: white;
+    color: black;
+    width: 150px;
+    padding: .5em;
+    border-radius: 15px;
+    cursor: pointer;
+    font-family: Montserrat;  
+}
+
+.landingpage-body-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+.landingpage-body-right img {
+    width: 78%;
+    cursor: pointer;
+}
+
+.landingpage-body-right h1 {
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.landingpage-body-right p {
+    text-align: center;
+}
+
+.landingpage-body-right button {
+    border-color: black;
+    background-color: white;
+    color: black;
+    width: 150px;
+    padding: .5em;
+    border-radius: 15px;
+    cursor: pointer;
+    font-family: Montserrat;  
+}
+
+.attribution {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 4em;
+    margin-bottom: 10px;
+  }

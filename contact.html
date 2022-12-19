@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./contact.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <title>Luxe Picnic</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="top-navigation">
+        <div class="top-navigation-left">
+          <img src="Picnic/logo3.png" alt="" />
+          <div class="top-navigation-links">
+            <a href="./index1.html">Home</a>
+            <a href="#">Reservations</a>
+            <a href="./contact.html">Contact Us</a>
+          </div>
+        </div>
+        <div class="top-navigation-right">
+          <img src="Picnic/basket-cart-icon-27.png" alt="" />
+        </div>
+      </div>
+      <div class="landingpage-body">
+        <div class="landingpage-body-center">
+          <h1>
+            Questions or special requests? <br />
+            We'd love to hear from you!
+          </h1>
+          <form action="server.php">
+            <fieldset>
+              Name:<br />
+              <input
+                type="text"
+                name="name"
+                value=""
+                required
+                style="width: 275px"
+              /><br />
+              Email:<br />
+              <input
+                type="text"
+                name="email"
+                value=""
+                required
+                style="width: 275px"
+              /><br />
+              Message:<br />
+              <textarea
+                name="message"
+                id="messageInput"
+                cols="35"
+                rows="10"
+                required
+              ></textarea
+              ><br /><br />
+              <label for="prioritySelect">Priority: </label>
+              <select name="priority" id="prioritySelect">
+                <option value="normal">Normal</option>
+                <option value="important">Important</option>
+                <option value="urgent">Urgent</option>
+              </select>
+              <br /><br />
+              <input
+                type="submit"
+                value="Submit"
+                style="
+                  background-color: white;
+                  padding: 0.5em;
+                  border-radius: 10px;
+                  font-family: Montserrat;
+                  margin-left: 105px;
+                  cursor: pointer;
+                "
+              />
+            </fieldset>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="attribution">
+      Copyright &copy; 2022 Luxe Picnic | All Rights Reserved
+    </div>
+  </body>
+</html>

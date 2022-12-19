@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body, html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    padding: 2em;
+}
+
+.top-navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top-navigation-left {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.top-navigation-links {
+    display: flex;
+    gap: 2em;
+}
+
+.top-navigation-links a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    gap: 1em;
+}
+
+.top-navigation-right {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+}
+
+.top-navigation-right img {
+    width: 25px;
+    cursor: pointer;
+}
+
+.landingpage-body-center h1 {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 1.5em;
+}
+
+.landingpage-body-center form {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+.landingpage-body-center fieldset {
+    width: 300px;
+    padding: 1em;
+}
+
+.landingpage-body-center label {
+    margin-left: 55px;
+}
+
+.landingpage-body-center select {
+    font-family: Montserrat;
+}
+
+.attribution {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 4em;
+    margin-bottom: 10px;
+  }
