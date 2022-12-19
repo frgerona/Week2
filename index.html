@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Getting information from the user</title>
+  </head>
+  <body>
+    <form action="server.php">
+      <fieldset>
+        <legend>Contact Us:</legend>
+        Name:<br />
+        <input
+          type="text"
+          name="name"
+          value=""
+          placeholder="Name here"
+          required
+        /><br />
+        <br />
+        Email:<br />
+        <input
+          type="text"
+          name="email"
+          value=""
+          placeholder="Email here"
+          required
+        /><br />
+        <br />
+        Message:<br />
+        <input type="text" name="message" value="" required /><br /><br />
+        <label for="prioritySelect">Priority:</label>
+        <select name="priority" id="prioritySelect">
+          <option value="normal">Normal</option>
+          <option value="important">Important</option>
+          <option value="urgent">Urgent</option>
+        </select>
+        <br /><br />
+        <input type="submit" value="Submit" />
+      </fieldset>
+    </form>
+  </body>
+</html>
